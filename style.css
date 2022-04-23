@@ -1,0 +1,47 @@
+marquee{
+        
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: center;
+    background-color: rgb(0, 225, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 5px rgb(220, 230, 224);
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(222, 235, 230);
+}
+.diposite-image{
+    height: 70px;
+    /* margin-left: 40%; */
+}
+.button-image{
+    height: 20px;
+}
+.frist-div{
+    /* border: 5px solid white;  */
+     display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 30%;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(48, 39, 39);
+    margin-left: 3px;
+
+    
+}
+.three-box{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* .amount-tag{
+    margin-left: 43%;
+}
+.button{
+    margin-left: 40%;
+} */
